@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="shortcut icon" href="imagens/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="imagens/logo.png" alt="C:\Users\vinicius.oliveira\Desktop\Erica-Alves-Marques">
+        <h1>Localização</h1>
+    </header> 
+    <nav>
+        <a href="index.html">Produtos</a>
+        <a href="sobrenos.html">Sobre nós</a>
+        <a href="contato.html">Contato</a>
+    </nav>
+    <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3838.8300285727905!2d-48.1138671256108!3d-15.812913923409935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935bcd48d215db8b%3A0xbaa46823017ed189!2sJJC%20Distribuidora!5e0!3m2!1spt-PT!2sbr!4v1694895936150!5m2!1spt-PT!2sbr" +
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" + 
+        referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </div>
+    <div class="center">
+        <script>
+        function mostrarMensagem() {
+            var botao = document.getElementById("meuBotao");
+            botao.innerHTML = "Mensagem enviada";
+            botao.disabled = true; 
+        }
+    </script>
+    <a href="form.html" class="button">
+        <button id="meuBotao" onclick="mostrarMensagem()" type="button">Quer nos contatar?</button>
+    </a>
+    </div>
+    
+</body>
+</html>

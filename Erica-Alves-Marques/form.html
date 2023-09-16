@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="shortcut icon" href="imagens/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="imagens/logo.png" alt="C:\Users\vinicius.oliveira\Desktop\Erica-Alves-Marques">
+        <h1>Fale conosco!</h1>
+    </header>
+    <nav>
+        <a href="index.html">Produtos</a>
+        <a href="sobrenos.html">Sobre nós</a>
+        <a href="contato.html">Contato</a>
+    </nav>
+    
+    <form action="processar_formulario.php" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+    
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
