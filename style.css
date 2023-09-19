@@ -60,8 +60,8 @@ nav {
         font-size: 1.8em;
     }
     .img {
-        
-            width: 400px; /* Largura da imagem */
+            max-width: 400px;
+            min-width: 200px; /* Largura da imagem */
             height: auto; /* Mantém a proporção de aspecto */
             border: 2px solid black; /* Borda da imagem */
             border-radius: 10px; /* Bordas arredondadas */
